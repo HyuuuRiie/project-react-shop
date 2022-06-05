@@ -13,6 +13,18 @@ export default function CartColumns({ value }) {
                 Clear Cart
               </button>
             </Link>
+            <h5>
+              <span className="text-title">Subtotal : </span>
+              <strong>Rp.{cartSubtotal}</strong>
+            </h5>
+            <h5>
+              <span className="text-title">Tax : </span>
+              <strong>Rp.{cartTax}</strong>
+            </h5>
+            <h5>
+              <span className="text-title">Total : </span>
+              <strong>Rp.{cartTotal}</strong>
+            </h5>
           </div>
         </div>
       </div>
